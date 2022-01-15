@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> Danh sách nhóm</title>
+	<meta charset="utf-8">
+</head>
+
+<body style="background-color:powderblue;">
+	<!-- TABLE 1 -->
+	<h1>Các sinh viên - Complete Table</h1>
+	<table border="1px" cellpadding="15" cellspacing="0">
+		<colgroup>
+			<col style="width: 50px; ">
+			<col style="width: 200px; ">
+			<col style="width: 300px; ">
+			<col style="width: 48px; ">
+		</colgroup>
+		
+		<thead>
+			<th>#</th>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Profile Picture</th>
+		</thead>
+		<tfoot>
+			<th>#</th>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Profile Picture</th>
+		</tfoot>
+
+		<tbody>	
+			<tr>
+				<td>1</td>
+				<td>Phan Trung Hậu</td>
+				<td>test!@gmail.com</td>
+				<td><img src="img/CatREEEEEEEEEE.png" width="48"height="48"></td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Nguyễn Đình Lãm</td>
+				<td>test!@gmail.com</td>
+				<td><img src="img/facepalm.png" width="48"height="48"></td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Nguyễn Ngọc Sương</td>
+				<td>test!@gmail.com</td>
+				<td><img src="img/Bunny Wave.png" width="48"height="48"></td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Gì đó Mai Anh</td>
+				<td>test!@gmail.com</td>
+				<td><img src="img/ohno.png" width="48"height="48"></td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+	<h1>Các nhóm - Complex Table</h1>
+	<!-- TABLE 2 -->
+	<table border="1px" cellpadding="15" cellspacing="0">
+		<colgroup>
+			<col style="width: 50px; ">
+			<col style="width: 100px; ">
+			<col style="width: 50px; ">
+			<col style="width: 50px; ">
+		</colgroup>
+
+		<thead></thead>
+		<tfoot></tfoot>
+
+		<tbody>
+
+			<tr>
+				<th colspan="4">Project groups</th>
+			</tr>
+			<tr style="font-weight: bold;">
+				<td>#</td>
+				<td>Họ và tên</td>
+				<td>Địa chỉ email</td>
+				<td>Số điện thoại</td>
+			</tr>
+			
+			<tr>
+				<td rowspan="3">1</td>
+			</tr>
+			<tr>
+				<td>Hau</td>
+				<td>mail@mailex.com</td>
+				<td>012177100dsa</td>
+			</tr>
+			<tr>
+				<td>Lam</td>
+				<td>mail@mailex.com</td>
+				<td>012177100dsa</td>
+			</tr>
+			<!--  -->
+			<tr>
+				<td rowspan="3">2</td>
+			</tr>
+			<tr>
+				<td>Sương</td>
+				<td colspan="2" style="text-align: center;">mail@mailex.com</td>
+			</tr>
+			<tr>
+				<td>Mai Anh</td>
+				<td>mail@mailex.com</td>
+				<td>012177100dsa</td>
+			</tr>
+			<!--  -->
+			<tr>
+				<td>3</td>
+				<td>Han Solo</td>
+				<td colspan="2" style="text-align: center;"> 3789217389</td>
+			</tr>
+
+			<tr>
+				<td>4</td>
+				<td colspan="3" style="text-align: center;">Giải thể - Disband</td>
+			</tr>
+
+
+
+		</tbody>
+	</table>
+</body>
+</html>
